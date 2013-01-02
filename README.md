@@ -3,7 +3,7 @@ gv_monitoring_scripts
 Monitoring Scripts
 
 There are 3 main monitoring related scripts :
-1. http_test.py running on linode server, 106.187.101.30, outside the iit network
+1. send_email.py running on linode server, 106.187.101.30, outside the iit network
 2. gv_heartbeat.py running on 10.22.5.49, inside the iit n/w.
 3. prod_server_heartbeat.py running on the production machine, 10.22.5.46
 These 3 scripts are checked into the git server, 10.76.9.6, in the branch call_stats, under VoiceDjango/scripts.
